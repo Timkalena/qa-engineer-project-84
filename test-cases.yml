@@ -3,7 +3,7 @@
   requirement: |
     Приложение в мобильном браузере все элементы сайта доступны, как на ПК-версии
   prerequisites: |
-    Открыт сайт магазина с ПК
+    Открыт сайт магазина с ПК https://hexlet-products-store.vercel.app
   test-data: |
     нет
   steps:
@@ -21,7 +21,7 @@
   requirement: |
     При выборе фильтра бренда остаются в выдаче сооовтетствующие ему товары
   prerequisites:
-    Открыта главная страница
+    Открыта главная страница https://hexlet-products-store.vercel.app
   test-data: |
     нет
   steps:
@@ -34,7 +34,7 @@
   requirement: |
     При открытии списка ктегорий видны все возможные варианты
   prerequisites:
-    Открыта главная страница
+    Открыта главная страница https://hexlet-products-store.vercel.app
   test-data: |
     нет
   steps:
@@ -47,7 +47,7 @@
   requirement: |
     При добавлении товара в корзину он попадает в соответствующий раздел
   prerequisites:
-    Открыта главная страница
+    Открыта главная страница https://hexlet-products-store.vercel.app
   test-data: |
     нет
   steps:
@@ -61,7 +61,7 @@
   requirement: |
     При удалении товара из корзины он пропадает из нее в том количестве, сколько раз было нажато удаление
   prerequisites:
-    Открыта корзина, и хотя бы один товар добавлен в корзину
+    Открыта корзина, и хотя бы один товар добавлен в корзину https://hexlet-products-store.vercel.app/cart
   test-data: |
     нет
   steps:
@@ -75,7 +75,7 @@
   requirement: |
     При нажатии кнопки оформления заказа пользователь попадает на страницу оплаты, где выводится наименование товара,  его количество и цена, а также стоимость всех товаров в корзине
   prerequisites:
-    Открыта корзина, и хотя бы один товар добавлен в корзину
+    Открыта корзина, и хотя бы один товар добавлен в корзину https://hexlet-products-store.vercel.app/cart
   test-data: |
     нет
   steps:
@@ -89,7 +89,7 @@
   requirement: |
     При выборе языка весь сайт будет переведен на выбранный язык
   prerequisites:
-    Открыта главная страница
+    Открыта главная страница https://hexlet-products-store.vercel.app
   test-data: |
     нет
   steps:
@@ -103,7 +103,7 @@
   requirement: |
     При переходе между разделами сайта не происходит перезагрузка страницы
   prerequisites:
-    Открыта главная страница
+    Открыта главная страница https://hexlet-products-store.vercel.app
   test-data: |
     нет
   steps:
@@ -124,7 +124,7 @@
   requirement: |
     При нажатии на "Отчистить корзину" удаляются сразувсе товары из нее
   prerequisites:
-    Открыта корзина, и хотя бы один товар добавлен в корзину
+    Открыта корзина, и хотя бы один товар добавлен в корзину https://hexlet-products-store.vercel.app/cart
   test-data: |
     нет
   steps:
@@ -137,7 +137,7 @@
   requirement: |
     При нажатии "Предыдущая" или "Следуюшая" пояляется соответствующая страница сайта 
   prerequisites:
-    Открыта главная
+    Открыта главная https://hexlet-products-store.vercel.app
   test-data: |
     нет
   steps:
@@ -151,7 +151,7 @@
   requirement: |
     При открытии карточки в ней будут название, рейтинг, цена со скидкой и без. 
   prerequisites:
-    Открыта главная
+    Открыта главная https://hexlet-products-store.vercel.app
   test-data: |
     нет
   steps:
@@ -164,7 +164,7 @@
   requirement: |
     При попытке добавить больше единиц товара, чем доступно, добавление не будет осуществлено 
   prerequisites:
-    Открыта главная
+    Открыта главная https://hexlet-products-store.vercel.app
   test-data: |
     нет
   steps:
@@ -177,7 +177,7 @@
   requirement: |
     На главной странице отображаются все элементы
   prerequisites:
-    Открыта главная
+    Открыта главная https://hexlet-products-store.vercel.app
   test-data: |
     нет
   steps:
@@ -190,7 +190,7 @@
   requirement: |
     Пользователь при вводе ключевого слова видит все подходящие товары
   prerequisites:
-    Открыта главная
+    Открыта главная https://hexlet-products-store.vercel.app
   test-data: |
     нет
   steps:
@@ -203,7 +203,7 @@
   requirement: |
     Пользователь в любом браузере в последней его версии может использовать сайт
   prerequisites:
-    Открыта главная
+    Открыта главная https://hexlet-products-store.vercel.app
   test-data: |
     нет
   steps:
@@ -220,7 +220,7 @@
   requirement: |
     Корзина открывается и корреткно отображает добавленные товары
   prerequisites:
-    Открыта главная страница сайта, и хотя бы один товар добавлен в корзину
+    Открыта главная страница сайта, и хотя бы один товар добавлен в корзину https://hexlet-products-store.vercel.app 
   test-data: |
     нет
   steps:
@@ -233,7 +233,7 @@
   requirement: |
     Фото из карточки можно открыть в большем размере, как бы сменить текущий снимок на другой, какой выберем
   prerequisites:
-    Открыта главная
+    Открыта главная https://hexlet-products-store.vercel.app
   test-data: |
     нет
   steps:
@@ -247,7 +247,7 @@
   requirement: |
     Сумма товаров в корзине отображена верно
   prerequisites:
-    Открыта корзина и хотя бы два товара добавлены в корзину
+    Открыта корзина и хотя бы два товара добавлены в корзину https://hexlet-products-store.vercel.app/cart
   test-data: |
     нет
   steps:
@@ -277,7 +277,7 @@
   requirement: |
     При клике по тегу в карточке товара мы попадаем на главную страницу каталога с фильтром по соответствующей категории
   prerequisites: |
-    Открыта карточка товара
+    Открыта карточка товара https://hexlet-products-store.vercel.app/products/1
   test-data: |
     нет
   steps:
@@ -290,7 +290,7 @@
   requirement: |
     При выборе определенной категории на главной странице каталога в выдаче остаются только соответствующие ей товары
   prerequisites: |
-    Открыта главная 
+    Открыта главная https://hexlet-products-store.vercel.app
   test-data: |
     нет
   steps:
@@ -303,7 +303,7 @@
   requirement: |
     При выборе определенного ценового дианазона отрицательного значения на главной странице каталога в выдаче не отображаются товары 
   prerequisites: |
-    Открыта главная 
+    Открыта главная https://hexlet-products-store.vercel.app
   test-data: |
     нет
   steps:
@@ -316,7 +316,7 @@
   requirement: |
     При выборе определенного ценового дианазона положительного значения на главной странице каталога в выдаче отображаются только товары, входящие по цене в установленный диапазон
   prerequisites: |
-    Открыта главная 
+    Открыта главная https://hexlet-products-store.vercel.app
   test-data: |
     нет
   steps:
@@ -329,7 +329,7 @@
   requirement: |
     При клике на галочку фильтра наличия товаров в выдаче остаются лишь те, что есть в наличии
   prerequisites: |
-    Открыта главная 
+    Открыта главная https://hexlet-products-store.vercel.app
   test-data: |
     нет
   steps:
@@ -342,7 +342,7 @@
   requirement: |
     При выборе сразу нескольких фильтров в выдаче остаются товары, соответствующие им обоим
   prerequisites: |
-    Открыта главная 
+    Открыта главная https://hexlet-products-store.vercel.app
   test-data: |
     нет
   steps:
@@ -358,7 +358,7 @@
   requirement: |
     В фильтрах есть возможность сортировать товары по цене, наличию, цвету, категории, разделу, бренду
   prerequisites: |
-    Открыта главная 
+    Открыта главная https://hexlet-products-store.vercel.app
   test-data: |
     нет
   steps:
