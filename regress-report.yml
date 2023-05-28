@@ -109,7 +109,7 @@ bugreports:
       YaBrowser/23.3.3.719
       ОС Windows 10 x64
     steps-to-reproduce: |
-        1. Открываем главную страницу сайта
+        1. Открываем главную страницу сайта https://products-store-git-v2bugfixes-hexlet-components.vercel.app
         2. Устанавливаем произвольную цену, меньшую, чем у любого товара, к примеру, 9
         3. Утанавливаем значение для другого фильтра
         4. Вводим ключевые слова в поисковом запросе
@@ -124,7 +124,7 @@ bugreports:
       YaBrowser/23.3.3.719
       ОС Windows 10 x64
     steps-to-reproduce: |
-      1. Открываем главную страницу сайта
+      1. Открываем главную страницу сайта https://products-store-git-v2bugfixes-hexlet-components.vercel.app
       2. Вызываем консоль
       3. Выбираем "Toddle device toolbar"
       4. Выбираем версию устройства
@@ -140,7 +140,7 @@ bugreports:
       YaBrowser/23.3.3.719
       ОС Windows 10 x64
     steps-to-reproduce: |
-      1. Открываем главную страницу сайта
+      1. Открываем главную страницу сайта https://products-store-git-v2bugfixes-hexlet-components.vercel.app
       2. Нажимаем на список категорий
       3. Нажимаем на "Следующая" или "Предыдущая"
       4. Сравниваем, что отображается в списках 
@@ -155,7 +155,7 @@ bugreports:
       YaBrowser/23.3.3.719
       ОС Windows 10 x64
     steps-to-reproduce: |
-      1. Открываем главную страницу сайта
+      1. Открываем главную страницу сайта https://products-store-git-v2bugfixes-hexlet-components.vercel.app
       2. Проверяем наличие всех фильтров, то есть производителя, цены, наличия, категории, цвета, раздела
     expected-result: |
       Все фильтры находятся на странице
@@ -168,7 +168,7 @@ bugreports:
       YaBrowser/23.3.3.719
       ОС Windows 10 x64
     steps-to-reproduce: |
-      1. Открываем главную страницу сайта
+      1. Открываем главную страницу сайта https://products-store-git-v2bugfixes-hexlet-components.vercel.app
       2. Выбираем любые значения в каждом из полей фильтров
     expected-result: |
       В выдаче появятся результаты, соответствующие запросу
@@ -181,7 +181,7 @@ bugreports:
       YaBrowser/23.3.3.719
       ОС Windows 10 x64
     steps-to-reproduce: |
-      1. Открываем главную страницу сайта
+      1. Открываем главную страницу сайта https://products-store-git-v2bugfixes-hexlet-components.vercel.app
       2. Выбираем любые отрицательные значения в фильтре по цене
     expected-result: |
       В выдаче не появятся товары
